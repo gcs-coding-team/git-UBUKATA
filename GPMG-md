@@ -1,1 +1,4 @@
-
+#5
+let btn = document.getElementById('＋ タスクを追加する');
+btn.style.backgroundColor = 'white';
+btn.style.color = 'blue';
