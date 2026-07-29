@@ -1,4 +1,10 @@
+#3
+let btn = document.getElementById('🏠　ホーム')
+let btn = document.getElementById('👤　アカウント')
+
 #5
 let btn = document.getElementById('＋ タスクを追加する');
 btn.style.backgroundColor = 'white';
 btn.style.color = 'blue';
+
+#15
