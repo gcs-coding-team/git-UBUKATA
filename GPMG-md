@@ -1,10 +1,109 @@
 #3
-let btn = document.getElementById('🏠　ホーム')
-let btn = document.getElementById('👤　アカウント')
+html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <button id="home" style="position: absolute; left: 160px; top: 10px;">🏠ホーム</button>
+    <button id ="account" style="position: absolute; left: 230px; top: 10px;">👤アカウント</button>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+css
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+javascript
+変更なし
 
 #5
-let btn = document.getElementById('＋ タスクを追加する');
+html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <button id="task"style="position: absolute; left: 200px; top: 10px;">＋　タスクを追加する</button>
+
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+css
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+javascript
 btn.style.backgroundColor = 'white';
 btn.style.color = 'blue';
 
+
 #15
+html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <px style="position: absolute; left: 0px; top: 10px;">ログイン状態</px>
+    <px style="position: absolute; left: 0px; top: 30px;">この端末でログイン中です。</px>
+    <button id="logout" style="position: absolute; left:0px; top: 60px;">ログアウト</button>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+css
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+javascript
+const el = document.getElementById("text");
+el.style.left = "100px";
+el.style.top = "200px";
