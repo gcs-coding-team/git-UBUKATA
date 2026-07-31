@@ -29,6 +29,3 @@ html::before {
   padding: 4px 8px;
   border-radius: 4px;
 }
-
-javascript
-変更なし
