@@ -1,0 +1,40 @@
+{
+  "name": "resafe",
+  "version": "0.1.0",
+  "description": "A ReDoS-safe regular expression engine: Thompson NFA + Pike VM, linear-time matching, zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "resafe": "./bin/resafe.ts"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "bench": "node --experimental-strip-types bench/redos.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "redos",
+    "nfa",
+    "pike-vm",
+    "linear-time",
+    "security"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "typescript": "^5.9.3"
+  }
+}
